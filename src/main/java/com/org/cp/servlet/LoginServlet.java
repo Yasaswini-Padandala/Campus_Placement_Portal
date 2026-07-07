@@ -64,8 +64,10 @@ public class LoginServlet extends HttpServlet {
                             "student",
                             student);
 
-                    response.sendRedirect(
-                            "studentDashboard.jsp");
+                    request.getRequestDispatcher(
+                            "studentDashboard.jsp")
+                            .forward(request,
+                                    response);
                 }
                 else {
 

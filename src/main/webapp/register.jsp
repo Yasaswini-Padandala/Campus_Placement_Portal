@@ -252,7 +252,6 @@ if(error != null){
 </div>
 
 </div>
-
 <div id="companyFields">
 
 <div class="input-group">

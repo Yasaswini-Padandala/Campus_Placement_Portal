@@ -226,7 +226,7 @@ placeholder="Java, JSP, Servlet" required>
 <div class="form-group">
 <label>Resume Link</label>
 <input type="url" name="resumeLink"
-value="<%=student.getResumePath()==null ? "" : student.getResumePath()%>">
+value="<%=student.getResumePath()==null ? "" :student.getResumePath()%>">
 </div>
 
 <button type="submit" class="btn">

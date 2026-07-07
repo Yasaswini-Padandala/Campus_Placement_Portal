@@ -225,7 +225,11 @@ body {
             <b>Skills :</b>
             <%=student.getSkills()%>
         </p>
-
+            <p>
+            <b>Resume :</b>
+            <%=student.getResumePath()%>
+        </p>
+          
     </div>
 
     <div class="menu-grid">

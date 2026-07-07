@@ -52,8 +52,11 @@ public class UploadResumeServlet extends HttpServlet {
 
         if(result > 0) {
 
-            response.sendRedirect(
-                    "studentDashboard.jsp");
+            student.setResumePath(resumeLink);
+            request.getRequestDispatcher(
+                    "studentDashboard.jsp")
+                    .forward(request,
+                            response);
         }
         else {
 

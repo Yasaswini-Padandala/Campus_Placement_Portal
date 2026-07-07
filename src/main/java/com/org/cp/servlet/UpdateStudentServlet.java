@@ -47,6 +47,7 @@ public class UpdateStudentServlet extends HttpServlet {
 
         student.setSkills(
                 request.getParameter("skills"));
+        student.setResumePath(request.getParameter("resumeLink"));
 
         int result =
                 studentDAO.updateStudent(student);
